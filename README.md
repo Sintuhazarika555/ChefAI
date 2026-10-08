@@ -1,4 +1,4 @@
-# 👨‍🍳 ChefAI — Smart Kitchen Recommender & Flavor Profiler
+#  ChefAI — Smart Kitchen Recommender & Flavor Profiler
 
 ChefAI is an intelligent, end-to-end culinary recommendation system. It extracts the dominant taste profile (*Sweet, Savory, Spicy, Tangy, Umami*) directly from available pantry ingredients using a neural network classifier and recommends matching recipes strictly constrained by your **available appliances** and **cooking time limit**.
 
@@ -10,7 +10,7 @@ Demo Link : https://chefai-shazar.streamlit.app/
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
 - **Neural Flavor Profiling:** Predicts flavor profiles and class probability breakdowns from raw ingredient inputs using an `MLPClassifier` trained on TF-IDF ingredient vector representations.
 - **Hardware-Constrained Matching:** Hard-filters recipes to ensure required tools (e.g., *stovetop, oven, microwave, blender, slow cooker*) are available to the user.
@@ -20,7 +20,7 @@ Demo Link : https://chefai-shazar.streamlit.app/
 
 ---
 
-## 🏗️ Architecture & Project Structure
+##  Architecture & Project Structure
 
 ```text
 chef-ai/
