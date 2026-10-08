@@ -2,6 +2,8 @@
 
 ChefAI is an intelligent, end-to-end culinary recommendation system. It extracts the dominant taste profile (*Sweet, Savory, Spicy, Tangy, Umami*) directly from available pantry ingredients using a neural network classifier and recommends matching recipes strictly constrained by your **available appliances** and **cooking time limit**.
 
+Demo Link : https://chefai-shazar.streamlit.app/
+
 ---
 
 ## 🌟 Key Features
