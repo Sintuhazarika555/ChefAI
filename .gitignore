@@ -1,0 +1,42 @@
+# 1. Virtual Environments (Excludes .venv and .venv312)
+.venv/
+.venv*/
+.venv312/
+venv/
+ENV/
+env/
+
+# 2. Python Cache & Compiled Bytecode (Excludes all __pycache__ folders)
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# 3. Raw Large Datasets (Excludes raw RecipeNLG csv file)
+data/*.csv
+data/RecipeNLG_dataset.csv
+*.csv
+
+# 4. Jupyter Notebook Checkpoints & Cache
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# 5. OS-Generated Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 6. Streamlit & IDE Settings
+.streamlit/secrets.toml
+.streamlit/*.local
+.vscode/*
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# IMPORTANT: Ensure model artifacts are NOT ignored so Streamlit Cloud can load them
+!data/artifacts/
+!data/artifacts/*.pkl
+!data/artifacts/*.parquet
