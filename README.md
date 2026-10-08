@@ -4,6 +4,10 @@ ChefAI is an intelligent, end-to-end culinary recommendation system. It extracts
 
 Demo Link : https://chefai-shazar.streamlit.app/
 
+![alt text](image-2.png)
+![alt text](image-3.png)
+
+
 ---
 
 ## 🌟 Key Features
